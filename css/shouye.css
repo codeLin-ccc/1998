@@ -1,0 +1,55 @@
+body{
+    min-width: 1200px;
+    font-size: 12px;
+}
+.body-c{
+    width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.header{
+    background-color: gainsboro;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-left{
+    width: 200px;
+    height: 30px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head-right{
+    width: 420px;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* 搜索栏 */
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1-img:nth-child(1){
+    width: 100px;
+    height: 200px;
+}
+.nav1-img:nth-child(2){
+    width: 500px;
+    height: 200px;
+}
+.nav1-img:nth-child(3){
+    width: 200px;
+    height: 200px;
+}
+.sec1-head{
+    background-color: gainsboro;
+}
+   

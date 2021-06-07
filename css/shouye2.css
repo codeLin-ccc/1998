@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cle::after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 arial,"\65b0\5b8b\4f53";
+}
+.wbox {
+    width: 1200px;
+    margin: 0 auto;
+}
+.gome-top {
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
+    background: #f8f8f8;
+    height: 30px;
+    color: #5e5e5e;
+    z-index: 999;
+}
+#gome-top-body {
+    position: relative;
+    background: #f8f8f8;
+    height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+#gome-user {
+    margin-right: 12px;
+}
+.gome-top li {
+    float: left;
+    position: relative;
+    font: 400 12px/30px Arial,"Microsoft YaHei";
+}
+#gome-user b {
+    color: #5e5e5e;
+}
+.home b {
+    font-weight: 400;
+}
+.gome-top b {
+    font-weight: 400;
+    display: block;
+    padding: 0 20px 0 10px;
+    border: 1px solid #f8f8f8;
+        border-bottom-color: rgb(248, 248, 248);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    border-bottom: 0;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+    color: #888;
+}
+#loginDiv-name a {
+    display: inline;
+}
+.home a, a:hover {
+    text-decoration: none;
+}
+.gome-top a {
+    color: #888;
+}
+.gome-top b i {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    background-position: -62px -433px;
+    width: 7px;
+    height: 4px;
+    overflow: hidden;
+}
+.gome-top em, .gome-top i {
+    background: url(../img/ui.png);
+        background-position-x: 0%;
+        background-position-y: 0%;
+    display: inline-block;
+    vertical-align: middle;
+}
+address, cite, dfn, var, em, i, u {
+    font-style: normal;
+}
+.gome-link {
+    line-height: 33px;
+    height: 30px;
+    overflow: hidden;
+    margin: 0;
+}
+.home a, a:hover {
+    text-decoration: none;
+}
+.gome-link a {
+    margin-right: 10px;
+    line-height: 32px;
+}
+.gome-link a.gome-link-register i {
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    background-position: -145px -1496px;
+    margin-left: 5px;
+    margin-top: -4px;
+    background-repeat: no-repeat;
+}
+.gome-top em, .gome-top i {
+    background: url(../img/ui.png);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+#gome-top-right {
+    float: right;
+}
+
+ .gome-top i {
+    background: url(../img/ui.png);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#gome-enterprise {
+    position: relative;
+}
+#gome-sitemap {
+    position: static;
+}
+#gome-phone {
+    position: static;
+}
